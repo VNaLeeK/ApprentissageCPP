@@ -11,13 +11,16 @@ public :
 
 Emballage (string format, int resistance, int longueur, int largeur, int hauteur = 0, int stock = 0);
 
+bool operator<(const Emballage &_autre);
+bool operator==(const Emballage &_autre);
+
 ~Emballage();
 
 void Visualiser() ;
 
 private :
-    int _resistance ;
     string _format ;
+    int _resistance ;
     int _longueur ;
     int _largeur ;
     int _hauteur ;
