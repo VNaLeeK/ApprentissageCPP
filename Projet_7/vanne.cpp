@@ -1,5 +1,5 @@
 /**
- * @file vanne.h
+ * @file vanne.cpp
  * @author Keelan VERCHAIN
  * @date 22/09/26
  * @version 1.0
@@ -8,7 +8,7 @@
 
 #include "vanne.h"
 /**
- * @class Vanne
+ * @brief Vanne::Vanne
  * @param _brocheImpulsion
  * @param _sensA
  * @param _sensB

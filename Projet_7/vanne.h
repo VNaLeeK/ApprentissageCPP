@@ -3,7 +3,13 @@
 #define gpio_num_t int
 #include <iostream>
 using namespace std ;
-
+/**
+ * @file vanne.h
+ * @author Keelan VERCHAIN
+ * @date 22/09/26
+ * @version 1.0
+ * @brief Implémentation de la classe Vanne
+ */
 class Vanne
 {
 public:
